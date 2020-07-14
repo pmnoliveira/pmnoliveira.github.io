@@ -2,7 +2,7 @@
     Font Family Standard Declaration 
 **/
 
-a, p, span, h1, h2, h3, h4, h5, h6, .overline{
+a, p, q, span, h1, h2, h3, h4, h5, h6, .overline{
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,6 +30,13 @@ p{
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
+}
+
+q{
+   font-style: italic;
+    font-weight: 300;
+    line-height: 26px;
+    color: dimgrey;
 }
 
 .overline{
@@ -121,12 +128,18 @@ a{
 }
 
 /** End of Component Declaration **/
+.logo-container img{
+    display: block;
+    height: auto;
+    width: 280px;
+    height: 140px;
+}
 
 /** 
     Footer Declaration 
 **/
 
 #footer{
-    margin-top: 24px;
+    margin-top: 80px;
     text-align: center;
 }
