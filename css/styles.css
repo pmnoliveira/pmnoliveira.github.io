@@ -9,6 +9,7 @@ a, p, q, span, h1, h2, h3, h4, h5, h6, .overline{
 h1{
     font-size: 48px;
     line-height: 58px;
+    word-break: break-word;
 }
 
 h2{
@@ -83,6 +84,19 @@ q{
     Components Declaration 
 **/
 
+/** Top Bar **/
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
 /* Tile of Projects */
 .project-tile{
     padding: 24px 16px;
@@ -131,8 +145,21 @@ a{
 .logo-container img{
     display: block;
     height: auto;
-    width: 280px;
     height: 140px;
+}
+
+.logo-container img{
+    max-width: 250px;
+    height: auto;
+}
+
+.image-block{
+    margin: 0 auto;
+    max-width: 1024px;
+    margin-bottom: 24px;
+}
+.image-block img{
+    width: 100%;
 }
 
 /** 

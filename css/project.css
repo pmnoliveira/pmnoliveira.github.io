@@ -13,3 +13,19 @@ h1{
 .intro-list li:last-child{
     margin-bottom: 0px;
 }
+
+.partners-list li{
+    margin-bottom: 24px;
+}
+
+.partners-list li:last-child{
+    margin-bottom: 0px;
+}
+
+.employer-container{
+    margin-bottom: 40px;
+}
+
+#partners h3{
+    margin-bottom: 16px;
+}
