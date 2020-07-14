@@ -1,0 +1,132 @@
+/** 
+    Font Family Standard Declaration 
+**/
+
+a, p, span, h1, h2, h3, h4, h5, h6, .overline{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 52px;
+}
+
+h3{
+    font-size: 24px;
+    line-height: 38px;
+}
+
+h4{
+    font-size: 18px;
+    line-height: 36px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.overline{
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.annotation{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.section-title{
+    margin-bottom: 24px;
+}
+
+.txt-block{
+    margin-bottom: 26px;
+}
+
+/** End of Font Declaration **/
+
+/** 
+    Color Declaration 
+**/
+
+.txt-primary, a{
+    color: #5D00FF;
+}
+
+.txt-white{
+    color: white;
+}
+
+.bg-primary{
+    background-color: #5D00FF;
+}
+
+/** End of Color Declaration **/
+
+/** 
+    Components Declaration 
+**/
+
+/* Tile of Projects */
+.project-tile{
+    padding: 24px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(112,112,112, .1);
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/** 
+    Projects
+**/
+.projects-list > li{
+    margin-bottom: 24px;
+}
+
+.projects-list > li:last-child{
+    margin-bottom: 0;
+}
+
+
+
+/* Divider */
+.divider{
+    display: block;
+    max-height: 1px;
+    border: 1px solid rgba(112,112,112, .04);
+    margin-bottom: 56px;
+    margin-top: 56px;
+}
+
+/* CTA-Button */
+.cta-button{
+    display: block;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+/** End of Component Declaration **/
+
+/** 
+    Footer Declaration 
+**/
+
+#footer{
+    margin-top: 24px;
+    text-align: center;
+}
