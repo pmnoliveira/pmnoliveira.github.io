@@ -1,0 +1,15 @@
+/** 
+    Introduction
+**/
+
+h1{
+    margin-bottom: 32px;
+}
+
+.intro-list li{
+    margin-bottom: 24px;
+}
+
+.intro-list li:last-child{
+    margin-bottom: 0px;
+}
